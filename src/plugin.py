@@ -35,10 +35,10 @@ AUTH_PARAMS = {
     "window_width": 495 if is_windows() else 480,
     "window_height": 746 if is_windows() else 708,
     "start_uri": "https://accounts.ea.com/connect/auth"
-                 "?response_type=code&client_id=ORIGIN_SPA_ID&display=originXWeb/login"
-                 "&locale=en_US&release_type=prod"
-                 "&redirect_uri=https://www.origin.com/views/login.html",
-    "end_uri_regex": r"^https://www\.origin\.com/views/login\.html.*"
+                 "?response_type=code&client_id=EADOTCOM-WEB-SERVER"
+                 "&locale=en_GB&release_type=prod"
+                 "&redirect_uri=https://www.ea.com/en-gb",
+    "end_uri_regex": r"^https://www.ea.com/en-gb.*"
 }
 
 MultiplayerId = NewType("MultiplayerId", str)
